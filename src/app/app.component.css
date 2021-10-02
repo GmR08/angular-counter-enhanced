@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4cm;
+  height: 4cm;
+  background-color: rgb(26, 117, 255);
+  border: 5px solid;
+  margin: auto;
+}
+
+body{
+  background-color: rgb(142, 190, 253);
+  width: 10cm;
+  height: 9cm;
+  border: 5px solid;
+  border-radius: 20%;
+  margin: auto;
+}
+.button, .buttonRe, .buttonLess{
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  background-color: lightblue;
+  color: black;
+  border-radius: 10px;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.button:hover{
+  background-color: limegreen;
+}
+.buttonRe:hover{
+  background-color: white;
+}
+.buttonLess:hover{
+  background-color: red;
+}
+.title{
+text-align: center;
+}
+.number-display {
+  font-size: 8em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+  margin-top: 1cm;
+}
